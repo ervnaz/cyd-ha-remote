@@ -2,9 +2,13 @@
 
 A touch remote for Home Assistant on the **ESP32-2432S028R** ("Cheap Yellow Display", 2.8" resistive touch), built with ESPHome and LVGL.
 
+![Overview of the Lights and Climate pages](images/overview.png)
+
 - **Lights page:** large tiles. Bedroom has an in-tile dimmer that appears when the light is on; Driveway and Backyard are on/off.
 - **Climate page:** four gauge rings (temperature) with humidity for each room and outdoors.
 - Amber on charcoal theme, Material Design Icons, backlight dims after 30 s and wakes on touch.
+
+*Images are renders of the layout (Bedroom at 39%, Backyard on), not photos. Individual pages: [`lights-page.png`](images/lights-page.png), [`climate-page.png`](images/climate-page.png).*
 
 ## Setup
 
